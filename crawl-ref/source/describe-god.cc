@@ -992,6 +992,10 @@ static formatted_string _describe_god_powers(god_type which_god)
         desc.cprintf("You are protected from the effects of unwielding distortion weapons.\n");
         break;
 
+    case GOD_IGNIS:
+        have_any = true;
+        desc.cprintf("You are resistant to fire.");
+
     default:
         break;
     }
