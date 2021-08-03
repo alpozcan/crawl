@@ -559,6 +559,12 @@ static const duration_def duration_data[] =
       "on word of chaos cooldown", "word of chaos cooldown",
       "You are unable to speak a word of chaos.", D_NO_FLAGS,
       {{ "You are ready to speak a word of chaos again." }}},
+    { DUR_RISING_FLAME,
+      LIGHTBLUE, "Rise",
+      "rising", "rise",
+      "You are rising toward the ceiling.", D_NO_FLAGS,
+      {{ "", rise_through_ceiling }}
+    },
 
     // The following are visible in wizmode only, or are handled
     // specially in the status lights and/or the % or @ screens.
