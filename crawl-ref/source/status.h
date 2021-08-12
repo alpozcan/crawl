@@ -48,6 +48,8 @@ enum status_type
     STATUS_MAXWELLS,
     STATUS_DUEL,
     STATUS_LAST_STATUS = STATUS_DUEL
+    STATUS_CORROSION,
+    STATUS_LAST_STATUS = STATUS_CORROSION
 };
 
 struct status_info
