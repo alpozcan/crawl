@@ -676,6 +676,7 @@ enum monster_type                      // env.mons[].type
     MONS_WORLDBINDER,
     MONS_ENTROPY_WEAVER, // not sure where else to put it
     MONS_BUNYIP,
+    MONS_CREEPING_INFERNO,
 #endif
     MONS_ELDRITCH_TENTACLE,
     MONS_ELDRITCH_TENTACLE_SEGMENT,
@@ -1117,6 +1118,7 @@ enum monster_type                      // env.mons[].type
     MONS_IRONBOUND_THUNDERHULK,
     MONS_IRONBOUND_BEASTMASTER,
     MONS_SALAMANDER_TYRANT,
+    MONS_CREEPING_INFERNO,
 #endif
 
     NUM_MONSTERS,               // used for polymorph
