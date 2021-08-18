@@ -644,16 +644,20 @@ POP_DEPTHS,
 },
 
 { // Gehenna
+  // "basic" monsters
   {  1,  4,  400, FALL, MONS_HELL_HOG },
   {  1,  7,  400, FALL, MONS_FIRE_GIANT },
   {  1,  7,  200, FALL, MONS_SALAMANDER_TYRANT },
-  {  1,  7,  150, FLAT, MONS_HELLION },
+  // "cross-hell" threats
+  {  1,  7,  100, FLAT, MONS_HELLION },
   {  1,  7,  100, FLAT, MONS_TORMENTOR },
+  {  1,  7,   10, FLAT, MONS_ANCIENT_LICH },
+  {  1,  7,   10, FLAT, MONS_DREAD_LICH },
+  // "branch flavour" threats
   {  1,  7,  300, PEAK, MONS_BALRUG },
   {  1,  7,  300, PEAK, MONS_HELLEPHANT },
   {  1,  7,   30, FLAT, MONS_CREEPING_INFERNO },
-  {  1,  7,   15, FLAT, MONS_ANCIENT_LICH },
-  {  1,  7,   15, FLAT, MONS_DREAD_LICH },
+  // "top tier" signature threats
   {  3,  7,  400, RISE, MONS_SEARING_WRETCH },
   {  3,  7,  200, RISE, MONS_BRIMSTONE_FIEND },
 },
