@@ -47,6 +47,7 @@ enum monster_type                      // env.mons[].type
     MONS_PORCUPINE,
 #endif
 #if TAG_MAJOR_VERSION > 34
+    MONS_CRYSTAL_ECHIDNA,
     MONS_PALENTONGA,
 #endif
     MONS_JACKAL,
