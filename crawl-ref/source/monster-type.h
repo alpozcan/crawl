@@ -1122,6 +1122,7 @@ enum monster_type                      // env.mons[].type
     MONS_CREEPING_INFERNO,
     MONS_SEARING_WRETCH,
     MONS_QUICKSILVER_ELEMENTAL,
+    MONS_CRYSTAL_ECHIDNA,
 #endif
 
     NUM_MONSTERS,               // used for polymorph
